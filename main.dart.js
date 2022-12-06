@@ -71902,7 +71902,7 @@ l=l.e
 A.ajZ().$1(l.a.a)
 p=t.N
 s=2
-return A.a_(A.et(A.cZ("http://10.0.0.100/sisac/aluno/indexAluno.php",0,null),A.au(["gra",l.a.a],p,p)),$async$$0)
+return A.a_(A.et(A.cZ("https://sisac-uninta.000webhostapp.com/sisac/aluno/indexAluno.php",0,null),A.au(["gra",l.a.a],p,p)),$async$$0)
 case 2:o=b
 l=o.e
 p=A.cQ(J.a4(A.cP(l).c.a,"charset"))
