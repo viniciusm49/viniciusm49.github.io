@@ -71952,7 +71952,7 @@ $0(){var s=0,r=A.W(t.H),q=this,p,o
 var $async$$0=A.X(function(a,b){if(a===1)return A.T(b,r)
 while(true)switch(s){case 0:p=t.N
 s=2
-return A.a_(A.et(A.cZ("https://sisac-uninta.000webhostapp.com/aluno/adicionarPresen\xe7a.php",0,null),A.au(["idAula",q.b,"idAluno",q.c],p,p)),$async$$0)
+return A.a_(A.et(A.cZ("https://sisac-uninta.000webhostapp.com/sisac/aluno/adicionarPresen\xe7a.php",0,null),A.au(["idAula",q.b,"idAluno",q.c],p,p)),$async$$0)
 case 2:o=b
 p=$.b1()
 A.qq(p)
@@ -71981,7 +71981,7 @@ p=J.a4(l.a(i.h(j,k)),"idaulas")
 o=J.a4(l.a(i.h(j,k)),"idalunos")
 n=t.N
 s=2
-return A.a_(A.et(A.cZ("https://sisac-uninta.000webhostapp.com/aluno/verPresen\xe7aJaTaMarcada.php",0,null),A.au(["idAula",p,"idAluno",o],n,n)),$async$$0)
+return A.a_(A.et(A.cZ("https://sisac-uninta.000webhostapp.com/sisac/aluno/verPresencaJaTaMarcada.php",0,null),A.au(["idAula",p,"idAluno",o],n,n)),$async$$0)
 case 2:m=b
 p=q.a
 if(A.cQ(J.a4(A.cP(m.e).c.a,"charset")).aG(0,m.w)==="sem resultados")p.a9j(J.a4(l.a(i.h(j,k)),"idaulas"),J.a4(l.a(i.h(j,k)),"idalunos"))
